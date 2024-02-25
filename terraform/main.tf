@@ -25,9 +25,9 @@ resource "aws_s3_bucket" "my-bucket" {
 
   tags = {
     Name                 = "My S3 Bucket"
-    git_commit           = "eeab0b47f3a4249e18ba9bead8639f603c0f6e42"
+    git_commit           = "743b56f3d65619f5dc2d6dec96220cd88ce59b69"
     git_file             = "terraform/main.tf"
-    git_last_modified_at = "2024-02-25 14:06:17"
+    git_last_modified_at = "2024-02-25 14:07:40"
     git_last_modified_by = "104417941+YGplgr@users.noreply.github.com"
     git_modifiers        = "104417941+YGplgr"
     git_org              = "support-enablement"
