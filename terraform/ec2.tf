@@ -6,9 +6,9 @@ resource "aws_instance" "my_instance" {
 
   tags = {
     Name                 = "Test EC2"
-    git_commit           = "9984fa408d9305d7d579de623bdd6a43c854c355"
-    git_file             = "terraform/main.tf"
-    git_last_modified_at = "2024-02-22 10:33:19"
+    git_commit           = "c01c1137deef0cf4d896aa737df43f4f4842fdb2"
+    git_file             = "terraform/ec2.tf"
+    git_last_modified_at = "2024-02-25 14:00:48"
     git_last_modified_by = "104417941+YGplgr@users.noreply.github.com"
     git_modifiers        = "104417941+YGplgr"
     git_org              = "support-enablement"
